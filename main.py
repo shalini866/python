@@ -58,6 +58,19 @@ print(num8,'is a type of',type(num8))
 #list
 lst =[10,15,20,25,30,35]
 print(lst,'is a type of',type(lst))
+print(lst[5])
 
-x = math.sqrt(64)
-print('sqr', x)
+#tuples
+point =(4,5)
+print(point[0],'is a type of',type(point))
+
+#dictonaires
+dic ={'ind': 'new delhi','france':'paris','italy':'rome'}
+print(dic,'is a type of',type(dic))
+
+#set
+value = ('poo','lily','rose','lily','jasmine','rose','sunflower')
+value2 = set(dic)
+print(value2,'is a type off',type(value2))
+
+
